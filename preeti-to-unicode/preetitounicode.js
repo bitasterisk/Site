@@ -93,8 +93,8 @@ const map = {
     '?' : [2352, 2369]
 }
 
-function preetiToUnicode(sentance) {
-    let words = sentance.split(" ");
+function preetiToUnicode(sentence) {
+    let words = sentence.split(" ");
     let translated = '';
     for (i = 0; i < words.length; i++) {
         let arr = [];
